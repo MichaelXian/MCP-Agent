@@ -15,6 +15,13 @@
         "@modelcontextprotocol/server-filesystem",
         "E:\\Documents\\GitHub\\MCP-Agent"
       ]
+    },
+    "brave-search": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "brave-search-mcp"
+      ]
     }
   }
 }
