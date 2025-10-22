@@ -1,5 +1,3 @@
-import os
-
 from agent.model import ask
 import asyncio
 from dotenv import load_dotenv
@@ -8,7 +6,7 @@ load_dotenv()
 
 
 async def run():
-    print("MCP Agent (Ollama gpt-oss) — type 'exit' to quit.\n")
+    print("MCP Agent (Ollama qwen3:30b) — type 'exit' to quit.\n")
     while True:
         user_input = input("You: ").strip()
         if user_input.lower() == "exit":

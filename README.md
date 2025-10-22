@@ -3,7 +3,7 @@
 - Install [Ollama](https://ollama.ai)
 - Pull the model:
   ```bash
-  ollama pull gpt-oss
+  ollama pull qwen3:30b
   
 Add environment variables to the .env file, as shown in .env.example
 
