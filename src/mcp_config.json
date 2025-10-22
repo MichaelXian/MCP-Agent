@@ -13,7 +13,7 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "E:\\Documents\\GitHub\\MCP-Agent"
+        "%CD%"
       ]
     },
     "brave-search": {

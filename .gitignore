@@ -1,6 +1,7 @@
 # Logs
 logs.txt
 logs
+mcp_log.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
