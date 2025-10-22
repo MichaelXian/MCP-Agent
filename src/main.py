@@ -1,14 +1,20 @@
-from agent.model import ask
+from dolphin_mcp import run_interaction
 
-def run():
+from agent.model import ask
+import asyncio
+
+
+async def run():
     print("MCP Agent (Ollama gpt-oss) — type 'exit' to quit.\n")
     while True:
         user_input = input("You: ").strip()
-        if user_input.lower() in {"exit", "quit"}:
+        if user_input.lower() == "exit":
             break
-        reply = ask(user_input)
+        reply = await ask(user_input, True)
         print(f"Agent: {reply}\n")
 
 
-if __name__ == "__main__":
-    run()
+async def main():
+    await run()
+
+asyncio.run(main())

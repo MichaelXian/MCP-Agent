@@ -1,0 +1,12 @@
+{
+  "models": [{
+    "model": "gpt-oss",
+    "provider": "ollama"
+  }],
+  "mcpServers": {
+    "local-server": {
+      "command": "python",
+      "args": ["mcp-server/main.py"]
+    }
+  }
+}

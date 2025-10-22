@@ -1,11 +1,9 @@
-from ollama import chat
-from ollama import ChatResponse
+from dolphin_mcp import run_interaction
 
-def ask(message, debug=False):
-    response: ChatResponse = chat(model='gpt-oss', messages=[
-        {
-            'role': 'user',
-            'content': message,
-        },
-    ], think=debug)
-    return response.message.content
+async def ask(message, debug=False):
+    result = await run_interaction(
+        user_query=message,
+        model_name="gpt-oss",
+        quiet_mode=not debug
+    )
+    return result
