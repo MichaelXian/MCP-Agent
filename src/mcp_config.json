@@ -27,6 +27,10 @@
       "command": "npx.cmd",
       "args": ["-y", "puppeteer-mcp-server"],
       "env": {}
+    },
+    "notionApi": {
+      "command": "npx.cmd",
+      "args": ["-y", "@notionhq/notion-mcp-server"]
     }
   }
 }
