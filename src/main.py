@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 async def run():
     print("MCP Agent (Ollama qwen3:30b) — type 'exit' to quit.\n")
     while True:

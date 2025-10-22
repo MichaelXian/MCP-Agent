@@ -4,7 +4,9 @@
 - Pull the model:
   ```bash
   ollama pull qwen3:30b
-  
+  ```
+If you want to use a different model, change the mcp_config accordingly
+
 Add environment variables to the .env file, as shown in .env.example
 
 - Install all npm packages globally so server startup does not timeout
