@@ -1,5 +1,10 @@
+import os
+
 from agent.model import ask
 import asyncio
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 async def run():

@@ -7,6 +7,14 @@
     "local-server": {
       "command": "python",
       "args": ["mcp-server/main.py"]
+    },
+    "filesystem": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "E:\\Documents\\GitHub\\MCP-Agent"
+      ]
     }
   }
 }
