@@ -1,5 +1,3 @@
-from dolphin_mcp import run_interaction
-
 from agent.model import ask
 import asyncio
 
